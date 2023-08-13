@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+.skye{
+    background-image: url(skye.jpg);
+    background-size: cover;
+    height: 37vh;
+}
+#illustrate{
+    width: 100vw;
+}
+.color{
+    position: relative;
+    background-color: lime;
+    height: 10px;
+    top: 10px;
+}
+.road{
+    position: absolute;
+    height: 25vh;
+    width: 100vw;
+    top: 310px;
+}
+.color1{
+    position: relative;
+    background-color: rgb(49,48,48);
+    height: 70px;
+
+    margin-top: 205px;
+}
+.road2{
+    position: absolute;
+    height: 25vh;
+    width: 100vw;
+    top: 575px;
+}
+.street1{
+    position: absolute;
+    height: 170px;
+    width: 130px;
+    bottom: 25px;
+    left: 100px;
+}
+.street2{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    bottom: -4px;
+    left: 300px;
+}
+.street3{
+    position: absolute;
+    height: 170px;
+    width: 130px;
+    bottom: 25px;
+    left: 470px;
+}
+.street4{
+    position: absolute;
+    height: 170px;
+    width: 130px;
+    bottom: 25px;
+    left: 800px;
+}
+.street5{
+    position: absolute;
+    height: 170px;
+    width: 130px;
+    bottom: 25px;
+    left: 1090px;
+}
+.street6{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    bottom: -4px;
+    left: 1283px;
+}
+.street7{
+    position: absolute;
+    height: 170px;
+    width: 130px;
+    bottom: 25px;
+    left: 1450px;
+}
+.bird{
+    position: absolute;
+    height: 350px;
+    width: 200px;
+    top: -100px;
+    left: 450px;
+    padding-top: 80px;
+}
+.bird2{
+    position: absolute;
+    height: 350px;
+    width: 200px;
+    top: -200px;
+    left: 1050px;
+    padding-top: 200px;
+}
+.aero{
+    position: absolute;
+    top: 10px;
+    left: 450px;
+    animation-name: aero;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes aero {
+    0%{
+        transform: translateX(1050px);
+    }
+    100%{
+        transform: translateX(-1060px);
+    }
+}
+.plane{
+    width: 250px;
+    
+    position: absolute;
+    animation-name: plane;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+} 
+    
+
+@keyframes plane {
+   from{
+    right:10px;
+   }
+   to{
+    right: 1500px;
+   }
+}
+.ped{
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    top: 170px; 
+    animation-name: ped;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes ped {
+   from{
+    left:10px;
+   }
+   to{
+    left: 1500px;
+   }
+}
+.man{
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    top: 170px; 
+    animation-name: man;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes man {
+   from{
+    right:10px;
+   }
+   to{
+    right: 1500px;
+   }
+}
+.car{
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    top: 310px; 
+    animation-name: car;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes car {
+   from{
+    right:10px;
+   }
+   to{
+    right: 1500px;
+   }
+}
+.bike{
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    top: 250px; 
+    animation-name: bike;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes bike {
+   from{
+    right:10px;
+   }
+   to{
+    right: 1500px;
+   }
+}
+
+.car3{
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    top: 350px; 
+    animation-name: car3;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes car3 {
+   from{
+    right:10px;
+   }
+   to{
+    right: 1500px;
+   }
+}
+.sport{
+    position: absolute;
+    height: 10vh;
+    width: 15vw;
+    top: 550px; 
+    animation-name: sport;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes sport {
+   from{
+    left:0px;
+   }
+   to{
+    left: 1500px;
+   }
+}
+.car2{
+    position: absolute;
+    height: 15vh;
+    width: 10vw;
+    top: 650px; 
+    animation-name: car2;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes car2 {
+   from{
+    left:10px;
+   }
+   to{
+    left: 1500px;
+   }
+}
+.truck{
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    top: 650px; 
+    animation-name: truck;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes truck {
+   from{
+    left:0px;
+   }
+   to{
+    left: 1500px;
+   }
+}
+.bike2{
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    top: 620px; 
+    animation-name: bike2;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes bike2 {
+   from{
+    left:0px;
+   }
+   to{
+    left: 1500px;
+   }
+}
