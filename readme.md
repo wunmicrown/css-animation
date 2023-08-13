@@ -1,1 +1,1 @@
-'#Interesting animation project' 
+#Interesting animation project
